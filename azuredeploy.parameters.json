@@ -8,10 +8,10 @@
         "description": "Name of the Logic App."
       }
     },
-    "When_a_message_is_received_in_a_queue_(auto-complete)Frequency": {
+    "When_a_message_is_received_in_a_queue_Frequency": {
       "value": "Minute"
     },
-    "When_a_message_is_received_in_a_queue_(auto-complete)Interval": {
+    "When_a_message_is_received_in_a_queue_Interval": {
       "value": 1
     },
     "documentdb_name": {
@@ -21,13 +21,13 @@
       "value": "cosmosdbconnection"
     },
     "documentdb_databaseAccount": {
-      "value": "function-drm-monitor0000"
+      "value": "xxx-your-account-here"
     },
     "documentdb_accessKey": {
       "value": null
     },
     "servicebus_name": {
-      "value": "functiondrmmonitor0000"
+      "value": "xxx-your-service-bus-name-here"
     },
     "servicebus_displayName": {
       "value": "servicebusconnection"

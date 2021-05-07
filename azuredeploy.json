@@ -35,14 +35,14 @@
         "description": "Location of the Logic App."
       }
     },
-    "When_a_message_is_received_in_a_queue_(auto-complete)Frequency": {
+    "When_a_message_is_received_in_a_queue_Frequency": {
       "type": "string",
       "defaultValue": "Minute",
       "metadata": {
         "description": "Frequency unit between refreshes from the service bus queue"
       }
     },
-    "When_a_message_is_received_in_a_queue_(auto-complete)Interval": {
+    "When_a_message_is_received_in_a_queue_Interval": {
       "type": "int",
       "defaultValue": 1,
       "metadata": {
@@ -121,10 +121,10 @@
             }
           },
           "triggers": {
-            "When_a_message_is_received_in_a_queue_(auto-complete)": {
+            "When_a_message_is_received_in_a_queue_": {
               "recurrence": {
-                "frequency": "[parameters('When_a_message_is_received_in_a_queue_(auto-complete)Frequency')]",
-                "interval": "[parameters('When_a_message_is_received_in_a_queue_(auto-complete)Interval')]"
+                "frequency": "[parameters('When_a_message_is_received_in_a_queue_Frequency')]",
+                "interval": "[parameters('When_a_message_is_received_in_a_queue_Interval')]"
               },
               "type": "ApiConnection",
               "inputs": {
